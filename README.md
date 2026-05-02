@@ -13,6 +13,18 @@ This repository contains the proposed solution developed for the thesis *"Credit
 
 ---
 
+## ABSTRACT
+
+A profitable corporate sector generates tax revenues that underpin public finances, including defence spending, which has become critical during the full-scale invasion. To remain profitable and grow, firms need to invest in equipment, working capital and operational capacity. With equity markets largely closed, bank credit is one of the few available sources of external financing to fund these investments. Understanding which firms access bank credit and what financial characteristics determine this access is therefore a question of direct macroeconomic and policy importance.
+
+The purpose of this study is to identify the financial determinants of bank credit access among medium-sized and large Ukrainian firms over the period 2019-2024, and to model the probability of increasing credit, using both logistic regression and machine learning approaches. The analysis is based on a panel of 81,062 observations across 18,119 firms. The dependent variable is defined as a year-on-year increase in net bank debt. The main method is pooled logistic regression with firm-clustered standard errors. Two machine learning models, Random Forest and Gradient Boosting, are estimated as additional approaches and benchmarked against the logit baseline. 
+
+The results show, even under wartime conditions, credit allocation in Ukraine remains risk-based. What drives credit access is not just collateral or size, but firm profitability and whether a firm already carries bank debt. The two crises had different effects. During COVID-19, firms prioritised liquidity retention, while the full-scale war led banks to screen borrowers more heavily on profitability. In regions with prolonged war exposure since 2014, financial metrics lose predictive power and relationship-based lending dominates. In regions affected since 2022, profitability becomes an even stronger determinant of credit access than in non-frontline regions. Credit access determinants also vary by sector: profitability and collateral drives lending in agriculture, liquidity and working capital in manufacturing and wholesale trade, operational efficiency in energy and profitability in mining.
+
+The findings offer empirical evidence on credit risk assessment under wartime and identify the financial profiles of firms most likely to qualify for bank credit. This information can serve as a basis for designing targeted lending programs for policymakers and international financial institutions.
+
+---
+
 ## Data
 
 The underlying dataset is sourced from **YouControl Market** and covers medium-to-large Ukrainian firms across all major sectors. The data are **not included in this repository** due to confidentiality constraints.
